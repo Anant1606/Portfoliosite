@@ -63,7 +63,7 @@ const Home = ({ ratio }) => {
 
           <Typewriter
             options={{
-              strings: ["A Developer", "A Designer", "A Creator"],
+              strings: ["A Developer", "A Designer", "A Resercher"],
               autoStart: true,
               loop: true,
               cursor: "",

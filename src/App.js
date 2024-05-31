@@ -32,7 +32,6 @@ function App() {
       <Work />
       <Timeline />
       <Services />
-      <Testimonial />
       <Contact />
       <Footer />
       <Toaster />
