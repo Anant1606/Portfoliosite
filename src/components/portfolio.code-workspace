@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "portfolio",
+			"path": "../.."
+		},
+		{
+			"name": "src",
+			"path": "../../../../react-portfolio-master/react-portfolio-master/src"
+		},
+		{
+			"path": "../../../../react-portfolio-master/react-portfolio-master/public"
+		}
+	],
+	"settings": {}
+}
