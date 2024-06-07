@@ -52,7 +52,7 @@ const Home = ({ ratio }) => {
       },
     },
   };
-
+//tfn
   return (
     <div id="home">
       <section>
