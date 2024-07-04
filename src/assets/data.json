@@ -10,9 +10,9 @@
 
     {
       "date": "11/10/2023",
-      "title": "VIDEO HUB",
-      "description": "This is Video sharing platform just like youtube",
-      "url": "https://github.com/Anant1606/videohub",
+      "title": "Podcast",
+      "description": "This is Video sharing platform just like youtube where you can upload andlisten to podcast",
+      "url": "https://podstream.netlify.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
     },
     {
