@@ -20,7 +20,7 @@ const Home = ({ ratio }) => {
   };
 
   const animationProjectsCount = () => {
-    animate(0, 500, {
+    animate(0,20, {
       duration: 1,
       onUpdate: (v) => {
         if (projectCount.current) {
@@ -82,13 +82,15 @@ const Home = ({ ratio }) => {
           <aside>
             <article>
               <p>
-                20+
+                
                 {ratio < 2 && (
                   <motion.span
                     ref={projectCount}
                     whileInView={animationProjectsCount}
                   ></motion.span>
+                  
                 )}
+                +
               </p>
               <span>Projects Done</span>
             </article>
