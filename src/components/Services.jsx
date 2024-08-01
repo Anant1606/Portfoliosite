@@ -26,7 +26,7 @@ const Services = () => {
 
   return (
     <div id="services">
-      <h2>Services</h2>
+      <h2>Skills</h2>
       <section>
         <motion.div
           className="serviceBox1"
