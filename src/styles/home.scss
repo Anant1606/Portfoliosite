@@ -2,6 +2,7 @@
   width: 100%;
   height: 90vh;
   display: flex;
+  position: relative; /* Ensure positioning context for absolute children */
 
   > section {
     width: 100%;
@@ -67,8 +68,6 @@
           color: $color5;
           position: relative;
 
-     
-
           > p {
             font-weight: 900;
             font-size: 2rem;
@@ -97,11 +96,51 @@
       overflow-x: hidden;
       position: relative;
 
-
       > img {
         width: 20vmax;
-        object-fit: contain;
         height: 20vmax;
+        object-fit: cover; /* Ensure the image fits well */
+        border-radius: 50%; /* Make the image circular */
+      }
+
+      /* Adding components around the circular image */
+      .circle-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /* Adjust margins and positioning to fit around the image */
+        > .component {
+          margin: 1rem;
+          padding: 0.5rem 1rem;
+          background-color: rgba(255, 255, 255, 0.8); /* Slightly translucent background */
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        > .top {
+          position: absolute;
+          top: -2rem;
+        }
+
+        > .bottom {
+          position: absolute;
+          bottom: -2rem;
+        }
+
+        > .left {
+          position: absolute;
+          left: -2rem;
+        }
+
+        > .right {
+          position: absolute;
+          right: -2rem;
+        }
       }
     }
   }

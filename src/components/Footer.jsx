@@ -1,4 +1,5 @@
 import React from "react";
+import me from "../assets/logo.png"
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -10,7 +11,7 @@ const Footer = () => {
     <footer>
       <div>
         <img
-          src={""}
+          src={me}
           alt="Founder"
         />
 
@@ -19,7 +20,7 @@ const Footer = () => {
       </div>
 
       <aside>
-        <h2>Social Media</h2>
+        <h2>Connect Me!!</h2>
 
         <article>
         <a href="https://github.com/Anant1606" target={"blank"}>

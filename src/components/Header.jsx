@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import resume from "../assets/resume.pdf"; // Assuming your resume file is stored here
 
 const Header = ({ setMenuOpen, menuOpen }) => {
   return (
@@ -36,14 +37,18 @@ const NavContent = ({ setMenuOpen }) => (
       <a onClick={() => setMenuOpen(false)} href="#timeline">
         Experience
       </a>
-     
       <a onClick={() => setMenuOpen(false)} href="#contact">
         Contact
       </a>
     </div>
-    <a href="mailto:anantsharma.1839@gmail.com">
-      <button>Email</button>
-    </a>
+    
+      <a href="mailto:anantsharma.1839@gmail.com">
+        <button>Email</button>
+      </a>
+      <a href={resume} download="Anant_Sharma_Resume.pdf">
+        <button>Download Resume</button>
+      </a>
+    
   </>
 );
 
